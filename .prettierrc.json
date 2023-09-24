@@ -1,0 +1,9 @@
+{
+  "arrowParens": "always",
+  "tabWidth": 2,
+  "semi": true,
+  "bracketSpacing": true,
+  "printWidth": 100,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./tailwind.config.js"
+}
