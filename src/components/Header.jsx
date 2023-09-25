@@ -20,9 +20,9 @@ export default function Header() {
     },
   ];
   return (
-    <div className="font-raleway text-white">
+    <div className="fixed inset-0 z-50 font-raleway text-white">
       <div
-        className={`bg-header flex items-center justify-between p-2 shadow-lg ${
+        className={`flex items-center justify-between bg-header p-2 shadow-lg ${
           !showMenu && "md:flex-col"
         }`}
       >
@@ -39,7 +39,7 @@ export default function Header() {
             return (
               <li
                 className={`mx-5 list-none px-2 py-1 ${
-                  item.key == path && "text-header rounded-md bg-white"
+                  item.key == path && "rounded-md bg-white text-header"
                 }`}
               >
                 <Link to={item.key}>{item.title}</Link>
@@ -53,7 +53,7 @@ export default function Header() {
             return (
               <li
                 className={`my-2 list-none px-2 pt-1 ${
-                  item.key == path && "text-header rounded-md bg-white"
+                  item.key == path && "rounded-md bg-white text-header"
                 }`}
               >
                 <Link to={item.key}>{item.title}</Link>

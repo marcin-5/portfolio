@@ -6,7 +6,7 @@ function Layout({ children }) {
     <div>
       <Header />
 
-      <div className="content">{children}</div>
+      <div className="content font-raleway">{children}</div>
 
       <Footer />
     </div>

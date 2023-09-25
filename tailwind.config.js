@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         header: "#202225",
+        theme: "#1d1e1f",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
