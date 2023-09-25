@@ -1,9 +1,20 @@
+import {
+  FaAngular,
+  FaBootstrap,
+  FaCss3,
+  FaHtml5,
+  FaJsSquare,
+  FaNodeJs,
+  FaPython,
+  FaReact,
+} from "react-icons/fa";
 import Layout from "../components/Layout";
 
 function Home() {
   return (
     <Layout>
       <div>
+        {/* Intro */}
         <div className="h-screen bg-theme">
           <div className="z-10 mx-10 grid h-screen rotate-12 transform grid-cols-2 items-center border-4 border-slate-50 bg-theme md:rotate-0 md:grid-cols-1 md:border-0">
             <div className="h-1/2">
@@ -23,6 +34,21 @@ function Home() {
                 FullStack <b className="text-green-400">Developer</b>
               </h1>
             </div>
+          </div>
+        </div>
+
+        {/* Technologies */}
+        <div className="mt-28">
+          <h1 className="my-8 text-center text-4xl font-bold text-slate-700">Technologies I use</h1>
+          <div className="grid grid-cols-4 md:grid-cols-1">
+            <FaJsSquare size={175} color="#f9c853" className="mt-20 w-full" />
+            <FaReact size={175} color="#087ea4" className="mt-20 w-full animate-bounce" />
+            <FaNodeJs size={175} color="#4f8f4f" className="mt-20 w-full animate-bounce" />
+            <FaAngular size={175} color="#d82d2f" className="mt-20 w-full" />
+            <FaPython size={175} color="#3b77b3" className="mt-20 w-full animate-bounce" />
+            <FaHtml5 size={175} color="#e44e44" className="mt-20 w-full" />
+            <FaCss3 size={175} color="#3595d5" className="mt-20 w-full" />
+            <FaBootstrap size={175} color="#7511f1" className="mt-20 w-full animate-bounce" />
           </div>
         </div>
       </div>
