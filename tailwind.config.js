@@ -6,6 +6,7 @@ export default {
       colors: {
         header: "#202225",
         theme: "#1d1e1f",
+        meditation: "#30405a",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],

@@ -20,7 +20,7 @@ export default function Header() {
     },
   ];
   return (
-    <div className="fixed inset-0 z-50 font-raleway text-white">
+    <div className="fixed left-0 right-0 top-0 z-50 font-raleway text-white">
       <div
         className={`flex items-center justify-between bg-header p-2 shadow-lg ${
           !showMenu && "md:flex-col"

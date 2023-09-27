@@ -51,6 +51,29 @@ function Home() {
             <FaBootstrap size={175} color="#7511f1" className="mt-20 w-full animate-bounce" />
           </div>
         </div>
+
+        {/* Meditation */}
+        <div className="my-20">
+          <div className="bg-meditation h-52 text-center">
+            <h1 className="py-10 text-4xl font-bold text-slate-100">
+              What can be as absorbing as meditation?
+            </h1>
+          </div>
+          <div className="mx-32 -mt-20 rounded-lg bg-slate-50 shadow-2xl hover:bg-gray-700 hover:text-slate-50 md:mx-5">
+            <div className="h-96">
+              <lottie-player
+                src="https://assets4.lottiefiles.com/packages/lf20_kkflmtur.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <p className="my-5 px-14 py-10 text-center text-2xl font-semibold md:px-5 md:text-xl">
+              You're right, solving interesting tasks makes me lose track of time.
+            </p>
+          </div>
+        </div>
       </div>
     </Layout>
   );
