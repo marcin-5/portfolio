@@ -7,6 +7,9 @@ export default {
         header: "#202225",
         theme: "#1d1e1f",
         meditation: "#30405a",
+        "dev-stack": "#405a5a",
+        "indian-red": "#cd5c5c",
+        "light-coral": "#f08080",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
