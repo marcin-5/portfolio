@@ -35,9 +35,10 @@ export default function Header() {
         </div>
 
         <div className="flex md:hidden">
-          {menuItems.map((item) => {
+          {menuItems.map((item, index) => {
             return (
               <li
+                key={index}
                 className={`mx-5 list-none px-2 py-1 ${
                   item.key == path && "rounded-md bg-white text-header"
                 }`}
@@ -49,9 +50,10 @@ export default function Header() {
         </div>
 
         <div className={`mt-2 w-full flex-col xxl:hidden xl:hidden lg:hidden md:flex ${showMenu}`}>
-          {menuItems.map((item) => {
+          {menuItems.map((item, index) => {
             return (
               <li
+                key={index}
                 className={`my-2 list-none px-2 pt-1 ${
                   item.key == path && "rounded-md bg-white text-header"
                 }`}
