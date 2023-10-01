@@ -28,7 +28,7 @@ export const ContentGrid = (content) => {
       {Object.keys(content).map((title, index) => {
         return (
           <div className={`text-center md:mt-${index ? 10 : 0}`}>
-            <h1 className="text-xl font-bold">{title}</h1>
+            <h1 className="text-xl font-bold md:mt-0">{title}</h1>
             <hr />
             {content[title].map((line) => {
               return <p className="mt-3 font-semibold">{line}</p>;

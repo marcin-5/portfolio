@@ -81,7 +81,7 @@ function Home() {
         {/* Dev Info */}
         <div>
           <h1 className="text-center text-4xl font-bold text-slate-700">Who is Marcin?</h1>
-          <div className="!md:h-screen relative text-slate-800">
+          <div className="relative h-screen text-slate-800 lg:-mt-20 md:-mt-40">
             <div className="h-full">
               <lottie-player
                 src="https://lottie.host/854d8229-e09d-4eac-962d-ae586c6ddded/Qt1Wt4KYwk.json"
