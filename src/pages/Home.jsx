@@ -77,6 +77,40 @@ function Home() {
             Other: ["Docker", "git"],
           })}
         />
+
+        {/* Dev Info */}
+        <div>
+          <h1 className="text-center text-4xl font-bold text-slate-700">Who is Marcin?</h1>
+          <div className="!md:h-screen relative text-slate-800">
+            <div className="h-full">
+              <lottie-player
+                src="https://lottie.host/854d8229-e09d-4eac-962d-ae586c6ddded/Qt1Wt4KYwk.json"
+                background="transparent"
+                speed="0.75"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+              <h1 className="text-2xl font-bold md:text-xl">
+                Hi, Hello, Witaj...
+                <hr />
+                <pre className="my-5 font-raleway text-xl font-normal md:text-base">
+                  {JSON.stringify(
+                    {
+                      name: "Marcin Bojara",
+                      age: null,
+                      gender: "male",
+                      country: "Poland",
+                    },
+                    null,
+                    2,
+                  )}
+                </pre>
+              </h1>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
