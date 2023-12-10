@@ -1,11 +1,15 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Layout from "./components/Layout";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
 function App() {
+  AOS.init({
+    duration: 1000,
+  });
   return (
     <div className="App">
       <BrowserRouter>

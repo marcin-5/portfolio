@@ -28,10 +28,10 @@ function Home() {
               ></lottie-player>
             </div>
             <div className="font-bold text-slate-50 md:px-5">
-              <h1 className="text-7xl md:text-4xl">
+              <h1 className="text-7xl md:text-4xl" data-aos="slide-right">
                 Hi, I am <b className="text-light-coral">Marcin</b>
               </h1>
-              <h1 className="text-4xl md:text-xl">
+              <h1 className="text-4xl md:text-xl" data-aos="slide-left">
                 FullStack <b className="text-yellow-400">Developer</b>
               </h1>
             </div>
@@ -40,7 +40,9 @@ function Home() {
 
         {/* Technologies */}
         <div className="mt-28">
-          <h1 className="my-8 text-center text-4xl font-bold text-slate-700">Technologies I use</h1>
+          <h1 className="my-8 text-center text-4xl font-bold text-slate-700" data-aos="slide-up">
+            Technologies I use
+          </h1>
           <div className="grid grid-cols-4 md:grid-cols-1">
             <FaJsSquare size={175} color="#f9c853" className="mt-20 w-full" />
             <FaReact size={175} color="#087ea4" className="mt-20 w-full animate-bounce" />
@@ -60,7 +62,7 @@ function Home() {
           animationUrl="https://assets4.lottiefiles.com/packages/lf20_kkflmtur.json"
           content={
             <p className="my-5 px-14 py-10 text-center text-2xl font-semibold md:px-5 md:text-xl">
-              You're right, solving interesting tasks makes me lose track of time.
+              You&apos;re right, solving interesting tasks makes me lose track of time.
             </p>
           }
         />

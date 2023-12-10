@@ -39,7 +39,7 @@ export default function Header() {
             return (
               <li
                 key={index}
-                className={`mx-5 list-none px-2 py-1 ${
+                className={`mx-5 list-none px-5 ${
                   item.key == path && "rounded-md bg-white text-header"
                 }`}
               >
